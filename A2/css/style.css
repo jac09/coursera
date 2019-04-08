@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+
+}
+
+article{
+  margin-bottom: 20px;
+  padding: 2px 20px 2px 20px;
+}
+li{
+  border: 1px solid black;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+#nav-list{
+  background-color: LightCyan;
+}
+#nav-list a:hover {
+  background: wheat;
+}
+
+#chicken{
+  background-color:#F5B7B1;
+}
+
+#beef{
+  background-color: #F0B27A;
+}
+
+#sushi {
+  background-color:#A9CCE3;
+}
+/********** Large devices only **********/
+@media (min-width: 992px){
+  .container{
+    width: 95%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
